@@ -125,8 +125,8 @@ var uniq = function(array,callback) {
       if (i === e) {
         continue
       } else if (item === element) {
-        newArray.splice(e, 1)
-        e--
+          newArray.splice(e, 1)
+          e--
       }
     }
   }
